@@ -1,5 +1,5 @@
 #game for the escaped 
-#33346 Onkar nanaware
+#33346 Onkar Nanaware asignment 1
 import os
 import heapq
 
@@ -83,7 +83,6 @@ MAZE = [
 def render_grid(grid, player_pos, ghost_pos, exit_pos):
     clear_screen()
     print("=== SHADOW ESCAPE (A* Pathfinding Demo) ===")
-    print("===Developed By Onkar Nanaware=============")
     print("Controls: W (Up), S (Down), A (Left), D (Right) | Q (Quit)\n")
     
     for r in range(len(grid)):
